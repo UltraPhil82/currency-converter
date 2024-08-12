@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#currencySelect {
+    height: 50px;
+    width: 200px;
+    background-color: #ebc56b;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#currencyInput {
+    height: 50px;
+    width: 200px;
+}
+
+#currencyOutput {
+    font-size: 24px;
+    font-weight: bold;
+}
